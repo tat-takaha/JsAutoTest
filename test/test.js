@@ -12,9 +12,9 @@ describe('作ったプログラムを次の項目ごとにテストします' , 
         it('「ハロー！」と挨拶しないとだめ', () => {
             assert.equal(myModule.hello('太郎'), 'はろー！太郎')
         })
-        
+
         it('挨拶と合計を計算', () => {
-            assert.equal(myModule.helloSum('太郎',1,2,3,4), 'はろー！太郎。合計は10です。')
+            assert.equal(myModule.helloSum('太郎',1,2,3), 'はろー！太郎。合計は10です。')
         })
 
 })
