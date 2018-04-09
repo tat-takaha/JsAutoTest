@@ -14,7 +14,7 @@ describe('作ったプログラムを次の項目ごとにテストします' , 
         })
 
         it('挨拶と合計を計算', () => {
-            assert.equal(myModule.helloSum('太郎',1,2,3), 'はろー！太郎。合計は10です。')
+            assert.equal(myModule.helloSum('太郎',1,2,3), 'はろー！太郎。合計は6です。')
         })
 
 })
